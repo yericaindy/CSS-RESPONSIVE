@@ -1,0 +1,423 @@
+body{
+  padding: 0;
+}
+div.menu{
+
+  width: 100%;
+  background-color: #a30023;
+}
+
+div.menu ul{
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
+div.menu ul li{
+   float: right;
+}
+div.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  display: block;
+  margin: 0;
+  padding: 10px 15px;
+  text-align: center;
+  letter-spacing: 2px;
+}
+div.menu ul li a:hover{
+  border-bottom: 2px solid #fff;
+}
+div.menu img{
+  width: 150px;
+  height: auto;
+}
+div.header {
+  width: 100%;
+  height: 500px;
+  background: url("hero.jpg") no-repeat center;
+  background-size:  cover;
+  float: left;
+}
+div.gelap{
+  width: 100%;
+  height: 500px;
+  margin: 0;
+  padding: 0;
+  background: #000;
+  opacity: 0.7;
+  float:left;
+}
+div.header h1{
+  position: absolute;
+  color: #fff;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bolder;
+  top: 170px;
+  left:420px;
+  opacity: 1;
+}
+
+div.header h1 label{
+  font-size:30px;
+}
+
+div.header h1 span{
+  padding: 10px;
+  border: 1px solid #fff;
+  border-radius:30px;
+  font-size: 10px;
+}
+div.header h1 img{
+  width: 100px;
+  height: auto;
+}
+div.about{
+  width: 100%;
+  height: auto;
+}
+div.about .left{
+  width:50%;
+  height: 100%;
+  text-align: right;
+  float:left;
+}
+div.about .left h1{
+  text-align:right;
+  font-size: 80px;
+  font-family:sans-serif;
+  font-weight: 20;
+  text-transform: uppercase;
+  border-right: 5px solid red;
+  padding-right: 20px;
+}
+div.about .left p{
+  text-align:right;
+  color: grey;
+  font-size: 35px;
+}
+div.about .right{
+  width: 50%;
+  height: 400px;
+  float: right;
+}
+div.about .right img{
+  width: 500px;
+  height: auto;
+  border: 10px solid #000;
+  border-radius: 20px;
+  margin-top: 40px;
+  margin-left: 100px;
+}
+div.layanan{
+  width: 100%;
+  height: 400px;
+  float: left;
+  margin-top: 150px;
+}
+div.layanan div.box{
+  width: 20%;
+  height: 350px;
+  margin: 20px;
+  float: left;
+}
+div.layanan div.box div.bunder{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+  margin: 0 auto;
+  display: flex;
+}
+
+div.bunder span{
+  margin:auto;
+  font-size: 60px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+div.box .judul{
+  color:red;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+div.box .deskripsi{
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+
+}
+div.penghargaan{
+  width: 100%;
+  height: 600px;
+  float: left;
+  background: url("gedung.jpg") no-repeat center;
+  background-size: cover;
+  margin-bottom: 20px;
+  position: relative;
+}
+div.gelap{
+  width: 100%;
+  height: 100%;
+  float: left;
+  background: linear-gradient(to right, #000, #000, #000, transparent);
+}
+div.penghargaan div.left{
+  width:50%;
+  margin-top: 200px;
+  position: absolute;
+  text-align: right;
+  color: #fff;
+  border-right: 10px solid red;
+  padding-right: 20px;
+  float: left;
+}
+div.penghargaan .left h1{
+  margin: 2px;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: monospace;
+}
+div.penghargaan .left h2{
+  margin: 2px;
+  font-size: 30px;
+  font-family: sans-serif;
+  color: grey;
+}
+div.penghargaan .left h3{
+  margin: 2px;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: 10
+
+}
+div.program{
+  width: 100%;
+  height: 10px;
+  margin-top: 30px;
+  float: left;
+
+}
+div.program .karan{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+  margin-bottom: 50px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+div.karan span{
+  margin: auto;
+  font-size: 50px;
+  color: #fff;
+  text-align: center;
+  vertical-align: middle;
+}
+div.program .title{
+  color: red;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+div.program .keterangan{
+  color: grey;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+div.info{
+  width: 100%;
+  height: 10px;
+  margin-top: 250px;
+  float: left;
+}
+div.info .bundars{
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background: red;
+  margin-bottom: 50px;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+div.bundars span{
+  margin: auto;
+  font-size: 50px;
+  color:#fff;
+  text-align: center;
+  vertical-align: middle;
+}
+div.info .judul{
+  color:red;
+  font-size: 50px;
+  text-align: center;
+  margin-top: 20px;
+  font-family: sans-serif;
+}
+div.info .deskripsi{
+  color:grey;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+div.update{
+  width: 100%;
+  height: 300px;
+  margin-top: 300px;
+  float: left;
+  background: red;
+  position: relative;
+}
+div.update.centang{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: red;
+  display: flex;
+  position: absolute;
+  left: 40px;
+  top: -50px;
+}
+
+div.update .centang span{
+  color: #fff;
+  margin: auto;
+  font-size: 30px;
+}
+
+div.update .left{
+  width: 50%;
+  height: auto;
+  float: left;
+}
+div.update .left h1{
+  margin-top: 50px;
+  margin-left: 40px;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 40px;
+ }
+ div.update .left p{
+   color: #fff;
+   font-size: 20px;
+   margin-left: 40px;
+
+ }
+ div.update .right{
+   width:50%;
+   height: auto;
+   float: left;
+   margin-top: 60px;
+  }
+ div.update .right .bunder{
+   width: 100px;
+   height: 100px;
+   background: #fff;
+   border-radius: 50%;
+   margin: 20px;
+   display: flex;
+   float: left;
+ }
+ div.update .right .bunder span{
+   color: red;
+   font-size: 50px;
+   width: 100%;
+   height: auto;
+   float: left;
+ }
+ div.agenda{
+   width: 100%;
+   height: 10px;
+   margin-top: 30px;
+   float:left;
+ }
+ div.agenda .bundar{
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   background: red;
+   margin-bottom: 50px;
+   display: flex;
+   margin: 0 auto;
+   margin-bottom: 10px;
+ }
+ div.bundar .span{
+   margin: auto;
+   font-size: 50px;
+   color: #fff;
+   text-align: center;
+   vertical-align: middle;
+ }
+ div.agenda .judul{
+   color: red;
+   font-size: 50px;
+   text-align: center;
+   margin-top: 20px;
+   font-family: sans-serif;
+ }
+ div.agenda .deskripsi{
+   color: grey;
+   font-size: 50px;
+   text-align: center;
+   margin-top: 10px;
+ }
+ div.partner{
+   width: 100%;
+   height: 10px;
+   margin-top: 250px;
+   float: left;
+ }
+ div.partner .bunders{
+   width: 100px;
+   height: 100px;
+   border-radius: 50px;
+   background: red;
+   margin-bottom: 50px;
+   display: flex;
+   margin:0 auto;
+   margin-bottom: 10px;
+ }
+ div.bunders span{
+   margin: auto;
+   font-size: 50px;
+   color: #fff;
+   text-align: center;
+   vertical-align: middle;
+ }
+ div.partner .judul{
+   color:red;
+   font-size: 50px;
+   text-align: center;
+   margin-top: 20px;
+   font-family: sans-serif;
+ }
+ div.partner .deskripsi{
+   color:grey;
+   font-size: 20px;
+   text-align: center;
+   margin-top: 10px;
+ }
+ div.logo{
+   width: 100%;
+   height: auto;
+   float:left;
+   box-sizing: border-box;
+   margin-top: 100px;
+   padding: 10%;
+ }
+ div.logo img{
+   width: 180px;
+   height: 50px;
+   float: left;
+   margin: 40px;
+}
